@@ -185,3 +185,15 @@ body{
 }
 
 /***************************  Header styles end  ****************************/
+
+
+/***************************  Aside styles start  ****************************/
+.site-aside{
+    margin-bottom: 45px;
+}
+
+.site-aside__img{
+    width: 1200px;
+    height: 99px;
+}
+/***************************  Aside styles end  ****************************/
