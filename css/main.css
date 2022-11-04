@@ -197,3 +197,89 @@ body{
     height: 99px;
 }
 /***************************  Aside styles end  ****************************/
+
+
+/***************************  Main styles start  ****************************/
+.site-main{
+    background-color: #fff;
+}
+
+.covid-section__wrapper{
+    background-color: #F6F6F9;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    padding-top: 42px;
+    padding-right: 35px;
+    padding-bottom: 41px;
+    padding-left: 35px;
+}
+
+.covid-section__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.covid-section__item{
+    display: flex;
+    align-items: center;
+}
+
+.covid-section__item:first-child{
+    width: 373px;
+    margin-right: 30px;
+}
+
+.covid-section__item:nth-child(2){
+    width: 260px;
+    margin-right: 30px;
+}
+
+.covid-section__item:nth-child(3){
+    width: 229px;
+    margin-right: 27px;
+}
+
+.covid-section__item:first-child::after{
+    display: block;
+    width: 2px;
+    height: 74px;
+    background-color: #EB5569;
+    content: "";
+}
+
+.covid-section__item:nth-child(2)::after{
+    display: block;
+    width: 2px;
+    height: 49px;
+    background-color: #F4CCD1;
+    margin-left: 42px;
+    content: "";
+}
+
+.covid-section__item:nth-child(3)::after{
+    display: block;
+    width: 2px;
+    height: 49px;
+    background-color: #F4CCD1;
+    margin-left: 39px;
+    content: "";
+}
+
+.covid-section__img{
+    margin-right: 25px;
+}
+
+.covid-section__title{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.covid-section__info{
+    display: flex;
+    flex-direction: column;
+}
+/***************************  Main styles end  ****************************/
