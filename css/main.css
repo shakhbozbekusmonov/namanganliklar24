@@ -344,7 +344,7 @@ body{
     margin-right: 18px;
 }
 
-.notification-box__content-text{
+.notification-box__content-title{
     font-size: 20px;
     line-height: 24px;
     color: #000000;
