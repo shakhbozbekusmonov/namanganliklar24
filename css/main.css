@@ -290,6 +290,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 34px;
     padding-left: 0;
     list-style: none;
 }
@@ -316,5 +317,54 @@ body{
 }
 
 /* News section end */
+
+
+/* Notification section start */
+.notification-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efba542e;
+    border-radius: 5px;
+    margin-bottom: 38px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    padding-left: 34px;
+}
+
+.notification-box__content{
+    display: flex;
+    align-items: center;
+}
+
+.notification-box__content-icon{
+    width: 29px;
+    height: 34px;
+    margin-right: 18px;
+}
+
+.notification-box__content-text{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.notification-box__btn{
+    width: 264px;
+    height: 42px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+/* Notification section end */
 
 /***************************  Main styles end  ****************************/
