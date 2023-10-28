@@ -1,0 +1,7 @@
+.site-article__news-quote::before {
+  content: "«";
+}
+
+.site-article__news-quote::after {
+  content: "»";
+}
