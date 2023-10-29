@@ -144,6 +144,7 @@ a {
     align-items: center;
     padding: 10px;
     border-radius: 5px;
+    border: none;
     background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
 }
 
@@ -630,3 +631,78 @@ a {
     font-weight: 500;
 }
 /* FOOTER END */
+
+/* MODAL START */
+.modal {
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 819px;
+    height: 100%;
+    max-height: 231px;
+    padding-top: 46px;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-bottom: 32px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(86, 86, 86, 0.25);
+
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+
+.modal-close {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.modal-text {
+    margin-bottom: 30px;
+    color: #295093;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.modal-btn {
+    padding: 17px 19px 17px 56px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e96c8;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    background-image: url("../images/telegram-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(68, 81, 102, 0.24);
+
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+
+.modal.show{
+    transform: scale(1);
+}
+
+.modal-overlay.show{
+    transform: scale(1);
+}
+/* MODAL END */
