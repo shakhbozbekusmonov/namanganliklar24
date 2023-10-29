@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Политика</title>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="./css/contacts.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-
+    
     <!-- HEADER START -->
     <header class="site-header">
         <div class="container">
@@ -65,7 +66,7 @@
                         <a class="site-header__nav-link" href="#">Экономика</a>
                     </li>
                     <li class="site-header__nav-item">
-                        <a class="site-header__nav-link" href="#">Политика</a>
+                        <a class="site-header__nav-link" href="./politics.html">Политика</a>
                     </li>
                     <li class="site-header__nav-item">
                         <a class="site-header__nav-link" href="#">Общество</a>
@@ -90,10 +91,10 @@
         </div>
     </header>
     <!-- HEADER END -->
-
+    
     <!-- MAIN START -->
     <main class="site-main">
-         <!-- ASIDE START -->
+        <!-- ASIDE START -->
         <aside class="site-aside">
             <div class="container">
                 <img class="site-aside__advert" src="./images/nrg-banner.jpg" 
@@ -105,268 +106,108 @@
         </aside>
         <!-- ASIDE END -->
         
-        <!-- COVID INFO START -->
-        <section class="covid-info">
+        <!-- FORM START -->
+        <section class="form">
             <div class="container">
-                <ul class="covid-info__list">
-                    <li class="covid-info__item">
-                        <h2 class="covid-info__title">
-                            Коронавирус COVID-19
-                            в Узбекистане
-                        </h2>
-                    </li>
-                    <li class="covid-info__item">
-                        <div>
-                            <h3 class="covid-info__subtitle">
-                                Инфицированы
-                            </h3>
-                            <p class="covid-info__stats-num">
-                                2753
-                            </p>
-                        </div>
-                    </li>
-                    <li class="covid-info__item">
-                        <div>
-                            <h3 class="covid-info__subtitle covid-info__subtitle-two">
-                                Выздоровели
-                            </h3>
-                            <p class="covid-info__stats-num">
-                                2245
-                            </p>
-                        </div>
-                    </li>
-                    <li class="covid-info__item">
-                        <div>
-                            <h3 class="covid-info__subtitle covid-info__subtitle-three">
-                                Умерли
-                            </h3>
-                            <p class="covid-info__stats-num">
-                                12
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- COVID INFO END -->
+                <h2 class="form-title">
+                    Напишите нам
+                </h2>
+                <div class="form__wrapper">
+                    <div class="form__box">
+                        <form action="https://echo.htmlacademy.ru" method="POST">
+                            <input class="form__box-input" type="text" name="username" aria-label="Your username" placeholder="Имя">
+                            
+                            <input class="form__box-input" type="email" name="email" aria-label="Your email" placeholder="Электронная почта">
+                            
+                            <input class="form__box-input" type="tel" name="tel" aria-label="Your phone number" placeholder="Номер телефона">
+                            
+                            <input class="form__box-input" type="text" name="topic" aria-label="Your topic" placeholder="Тема">
+                            
+                            <textarea class="form__box-desc" name="username" aria-label="Your description" placeholder="Текст"></textarea>
+                            
+                            <label class="form__box-file">
+                                Прикрепить файл
+                                <input class="form__box-input" type="file" name="username" aria-label="Your username" placeholder="Имя">
+                            </label>
 
-        <!-- POLITICS NEWS START -->
-        <section class="latest-news">
-            <div class="container">
-                <div class="latest-news__wrapper">
-                    <section class="lastest-news__start">
-                        <h2 class="latest-news__start-title">
-                            Политика
-                        </h2>
-                        <ul class="latest-news__start-list">
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/sardoba.jpg" alt="По факту прорыва Сардобинского водохранилища 
-                                возбуждено уголовное дело">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        По факту прорыва Сардобинского водохранилища 
-                                        возбуждено уголовное дело
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
-                                </div>
+                            <label class="form__box-code">
+                                <input class="form__box-input form__box-code-input" type="number" name="code" aria-label="Your code" placeholder="Код">
+
+                                4 k 7 Z a
+                            </label>
+
+                            <button class="form__box-btn" type="submit">Отправить</button>
+                        </form>
+                    </div>
+
+                    <div class="form__contacts">
+                        <a class="contact-logo-link" href="./index.html">
+                            <img class="contact-logo-img" src="./images/logo.svg" alt="Namanganliklar24 logo img">
+                        </a>
+
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <p class="contact-item__title">
+                                    Электронная почта
+                                </p>
+
+                                <a class="contact-item__link" href="mailto:info@namanganliklar24.uz">info@namanganliklar24.uz</a>
                             </li>
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/prezident.jpg" alt="Мирзиёев: «Нам следовало бы принять некоторые правила 
-                                карантина как часть повседневной жизни»
-                                ">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        Мирзиёев: «Нам следовало бы принять некоторые правила 
-                                        карантина как часть повседневной жизни»
-                                        
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
-                                </div>
+                            <li class="contact-item">
+                                <p class="contact-item__title">
+                                    Социальные сети
+                                </p>
+
+                                <ul class="social-list">
+                                    <li class="social-item">
+                                        <a class="social-link"href="#">
+                                            <img src="./images/facebook-icon.svg" alt="Facebook icon" class="social-img">
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a class="social-link"href="#">
+                                            <img src="./images/twitter-icon.svg" alt="Twitter icon" class="social-img">
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a class="social-link"href="#">
+                                            <img src="./images/ok-icon.svg" alt="Ok icon" class="social-img">
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/bus.jpg" alt="В Ташкенте планируют ввести новую систему электронных проездных билетов">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        В Ташкенте планируют ввести новую систему электронных проездных билетов
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где проходят основные маршруты.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
-                                </div>
+                            <li class="contact-item">
+                                <p class="contact-item__title">
+                                    Телеграм канал
+                                </p>
+
+                                <button class="contact-btn" type="button">
+                                    Подписатся
+                                </button>
                             </li>
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/sardoba.jpg" alt="По факту прорыва Сардобинского водохранилища 
-                                возбуждено уголовное дело">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        По факту прорыва Сардобинского водохранилища 
-                                        возбуждено уголовное дело
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
-                                </div>
-                            </li>
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/prezident.jpg" alt="Мирзиёев: «Нам следовало бы принять некоторые правила 
-                                карантина как часть повседневной жизни»
-                                ">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        Мирзиёев: «Нам следовало бы принять некоторые правила 
-                                        карантина как часть повседневной жизни»
-                                        
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
-                                </div>
-                            </li>
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/bus.jpg" alt="В Ташкенте планируют ввести новую систему электронных проездных билетов">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        В Ташкенте планируют ввести новую систему электронных проездных билетов
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где проходят основные маршруты.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
-                                </div>
-                            </li>
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/bus.jpg" alt="В Ташкенте планируют ввести новую систему электронных проездных билетов">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        В Ташкенте планируют ввести новую систему электронных проездных билетов
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где проходят основные маршруты.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
-                                </div>
-                            </li>
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/sardoba.jpg" alt="По факту прорыва Сардобинского водохранилища 
-                                возбуждено уголовное дело">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        По факту прорыва Сардобинского водохранилища 
-                                        возбуждено уголовное дело
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
-                                </div>
-                            </li>
-                            <li class="latest-news__start-item">
-                                <img class="latest-news__start-item-img" src="./images/prezident.jpg" alt="Мирзиёев: «Нам следовало бы принять некоторые правила 
-                                карантина как часть повседневной жизни»
-                                ">
-                                
-                                <div>
-                                    <h3 class="latest-news__start-item-title">
-                                        Мирзиёев: «Нам следовало бы принять некоторые правила 
-                                        карантина как часть повседневной жизни»
-                                        
-                                    </h3>
-                                    <p class="latest-news__start-item-desc">
-                                        Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.
-                                    </p>
-                                    <time class="latest-news__start-item-date" datetime="15-05-2020T11:31">11:31 / 15.05.2020</time>
+                            <li class="contact-item">
+                                <p class="contact-item__title">
+                                    Мобильная приложение
+                                </p>
+
+                                <div class="contact-mobile-store">
+                                    <a href="#">
+                                        <img src="./images/google-play.png" alt="Google Play logo img">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/app-store.png" alt="App Storw logo img">
+                                    </a>
                                 </div>
                             </li>
                         </ul>
-                        <a class="latest-news__start-btn" href="#">
-                            Больше новостей
-                        </a>
-                    </section>
-                    
-                    <div class="latest-news__end">
-                        <section class="latest-news__end-news">
-                            <h2 class="latest-news__end-news-title">
-                                Cамые популярные новости
-                            </h2>
-                            
-                            <ul class="latest-news__end-news-list">
-                                <li class="latest-news__end-news-item">
-                                    <h3 class="latest-news__end-news-subtitle">
-                                        По факту прорыва Сардобинского водохранилища 
-                                        возбуждено уголовное дело
-                                    </h3>
-                                    
-                                    <time class="latest-news__end-news-date" datetime="15-05-2020T11:31">
-                                        11:31 / 15.05.2020
-                                    </time>
-                                    
-                                    <hr class="latest-news__end-news-line">
-                                </li>
-                                <li class="latest-news__end-news-item">
-                                    <h3 class="latest-news__end-news-subtitle">
-                                        По факту прорыва Сардобинского водохранилища 
-                                        возбуждено уголовное дело
-                                    </h3>
-                                    
-                                    <time class="latest-news__end-news-date" datetime="15-05-2020T11:31">
-                                        11:31 / 15.05.2020
-                                    </time>
-                                    
-                                    <hr class="latest-news__end-news-line">
-                                </li>
-                                <li class="latest-news__end-news-item">
-                                    <h3 class="latest-news__end-news-subtitle">
-                                        По факту прорыва Сардобинского водохранилища 
-                                        возбуждено уголовное дело
-                                    </h3>
-                                    
-                                    <time class="latest-news__end-news-date" datetime="15-05-2020T11:31">
-                                        11:31 / 15.05.2020
-                                    </time>
-                                    
-                                    <hr class="latest-news__end-news-line">
-                                </li>
-                                <li class="latest-news__end-news-item">
-                                    <h3 class="latest-news__end-news-subtitle">
-                                        По факту прорыва Сардобинского водохранилища 
-                                        возбуждено уголовное дело
-                                    </h3>
-                                    
-                                    <time class="latest-news__end-news-date" datetime="15-05-2020T11:31">
-                                        11:31 / 15.05.2020
-                                    </time>
-                                </li>
-                            </ul>
-                        </section>
-                        
-                        <aside class="latest-news__advert">
-                            <img src="./images/ucell-advert.jpg" width="386" height="477" alt="Ucel Adversitising img">
-                        </aside>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- POLITICS NEWS END -->
+        <!-- FORM END -->
+        
     </main>
     <!-- MAIN END -->
-
     <!-- FOOTER START -->
     <footer class="site-footer">
         <div class="container">
@@ -401,7 +242,7 @@
                 
                 <ul class="site-footer__wrapper-end-list site-footer__wrapper-first-list">
                     <li class="site-foooter__wrapper-end-item">
-                        <a class="site-footer__wrapper-end-link" href="./contacts.html">Информация о сайте
+                        <a class="site-footer__wrapper-end-link" href="#">Информация о сайте
                         </a>
                     </li>
                     <li class="site-foooter__wrapper-end-item">
@@ -432,6 +273,5 @@
         </div>
     </footer>
     <!-- FOOTER END -->
-    
 </body>
 </html>

@@ -1,0 +1,151 @@
+/* CONTACTS START */
+.form {
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+.form__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-title {
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.form__box {
+    width: 100%;
+    max-width: 600px;
+}
+
+.form__box-input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 16px;
+    border-radius: 5px;
+    border: 2px solid #285193;
+    background-color: #f1f1f1;
+    opacity: 0.5;
+}
+
+.form__box-desc {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    margin-bottom: 20px;
+    padding: 15px 16px;
+    opacity: 0.5;
+    border-radius: 5px;
+    border: 2px solid #285193;
+    background-color: #f1f1f1;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.form__box-file {
+    display: inline-block;
+    width: 221px;
+    margin-bottom: 20px;
+    padding: 15px 51px 15px 16px;
+    border-radius: 5px;
+    opacity: 0.5;
+    border: 2px solid #285193;
+    background-color: #fbfbfb;
+
+    background-image: url("../images/file-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 181px center;
+}
+
+.form__box-code {
+    display: flex;
+    align-items: center;
+}
+
+.form__box-code-input {
+    width: 221px;
+    margin-right: 18px;
+}
+
+.form__box-btn {
+    padding: 15px 61px;
+    border-radius: 5px;
+    border: 2px solid rgba(40, 81, 147, 0.54);
+    background-color: #295093;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form__contacts {
+    width: 100%;
+    max-width: 510px;
+    max-height: 280px;
+    padding: 23px 20px;
+    border-radius: 5px;
+    border: 2px solid #bcc3cd;
+    background-color: #fff;
+    box-shadow: 0px 8px 9px 0px rgba(57, 57, 57, 0.25);
+}
+
+.contact-logo-link {
+    display: block;
+    text-align: right;
+    margin-bottom: 21px;
+}
+
+.contact-logo-img {
+    margin-left: auto;
+}
+
+.contact-list {
+    height: 100%;
+    max-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-item__title {
+    color: #888;
+    font-size: 18px;
+}
+
+.contact-item__link {
+    color: #888;
+    font-size: 18px;
+}
+
+.social-list {
+    display: flex;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 13px;
+}
+
+.contact-btn {
+    padding: 6px 10px 6px 35px;
+    border-radius: 5px;
+    background-color: #295091;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    background-image: url("../images/telegram-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 9px center;
+}
+/* CONTACTS END */
