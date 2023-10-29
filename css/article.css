@@ -74,13 +74,20 @@ cite {
     display: flex;
 }
 
-.site-article__item:not(:last-child){
-  margin-right: 15px;
+.site-article__item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.site-article__line {
+    margin-top: 20px;
+    height: 2px;
+    border: none;
+    background-color: #ebebeb;
 }
 /* ARTICLE END */
 
-.news__title{
-  display: block;
-  margin-top: 16px;
-  margin-bottom: 20px;
+.news__title {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 20px;
 }
