@@ -1,7 +1,86 @@
+/* ARTICLE START */
+.site-article {
+    width: 100%;
+    background-color: #fff;
+}
+
+.site-article__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.site-article__start {
+    width: 100%;
+    max-width: 794px;
+}
+
+.site-articel__news-title {
+    margin-bottom: 13px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.site-article__news-date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    color: #7688a4;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.site-article__news-date::before {
+    content: url("../images/calendar-icon.svg");
+}
+
+.site-article__news-subtitle {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.site-article__news-desc {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.site-article__news-quote {
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+cite {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
 .site-article__news-quote::before {
-  content: "«";
+    content: "«";
 }
 
 .site-article__news-quote::after {
-  content: "»";
+    content: "»";
+}
+
+.site-article__list {
+    display: flex;
+}
+
+.site-article__item:not(:last-child){
+  margin-right: 15px;
+}
+/* ARTICLE END */
+
+.news__title{
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 20px;
 }
